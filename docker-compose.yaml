@@ -1,0 +1,11 @@
+version: '3'
+services:
+  graphqlinterface:
+    build: ./recommender/target
+    ports:
+      - 8080:8080
+  postgresqldatenbank:
+    build: ./DatabasePokemon
+    ports: 
+      - 32771:5432
+

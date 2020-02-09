@@ -1,0 +1,12 @@
+{
+    "name": "Bulbasaur",
+    "id": "1",
+    "types": [
+        {
+            "typeName": "grass"
+        },
+        {
+            "typeName": "poison"
+        }
+    ]
+}
