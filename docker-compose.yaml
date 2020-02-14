@@ -4,8 +4,18 @@ services:
     build: ./recommender/target
     ports:
       - 8080:8080
-  postgresqldatenbank:
+  postgresdb:
     build: ./DatabasePokemon
     ports: 
       - 32771:5432
-
+  db-ui:
+    image: dpage/pgadmin4
+    hostname: db-service
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@test.com
+      PGADMIN_DEFAULT_PASSWORD: adminPass
+    ports:
+      - 8184:80
+    networks:
+      - default
