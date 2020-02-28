@@ -16,7 +16,7 @@ import de.pokeRecommender.service.SpeciesService;
 import graphql.schema.GraphQLSchema;
 import graphql.servlet.SimpleGraphQLHttpServlet;
 
-@Configuration()
+@Configuration
 @ComponentScan(basePackages = "de.pokeRecommender")
 public class GraphQlConfig {
 
