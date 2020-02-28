@@ -1,8 +1,0 @@
-de/pokeRecommender/resolver/QueryResolver.class
-de/pokeRecommender/domain/Species.class
-de/pokeRecommender/dao/SpeciesDao.class
-de/pokeRecommender/config/GraphQlConfig.class
-de/pokeRecommender/domain/Type.class
-de/pokeRecommender/Recomender.class
-de/pokeRecommender/service/SpeciesService.class
-de/pokeRecommender/service/SpeciesServiceImpl.class

@@ -1,8 +1,0 @@
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/config/GraphQlConfig.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/domain/Species.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/resolver/QueryResolver.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/service/SpeciesServiceImpl.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/Recomender.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/dao/SpeciesDao.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/service/SpeciesService.java
-/home/hannes/Schreibtisch/Pokemon/PokemonGits/recommender/src/main/java/de/pokeRecommender/domain/Type.java
