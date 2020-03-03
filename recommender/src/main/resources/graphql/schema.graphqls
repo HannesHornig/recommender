@@ -1,7 +1,7 @@
 type Species {
     speciesId: Int!
     name: String
-    order: Int
+    dexorder: Int
     type: [Type]
 }
 
