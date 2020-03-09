@@ -21,7 +21,7 @@ public class Species implements Serializable {
 	private  int id;
 	private  int speciesId;
 	private  String name;
-	private  int order;
+	private  int dexorder;
 	@OneToMany(
 			fetch=FetchType.EAGER,cascade = CascadeType.ALL, orphanRemoval = true
 			)
@@ -36,10 +36,10 @@ public class Species implements Serializable {
 
 	}
 
-	public Species(String name, int speciesId, int order, List<Type> type) {
+	public Species(String name, int speciesId, int dexorder, List<Type> type) {
 		this.name = name;
 		this.speciesId = speciesId;
-		this.order = order;
+		this.dexorder = dexorder;
 		this.type = type;
 	}
 
@@ -51,8 +51,8 @@ public class Species implements Serializable {
 		return speciesId;
 	}
 
-	public int getOrder() {
-		return order;
+	public int getDexorder() {
+		return dexorder;
 	}
 
 	public List<Type> getType() {

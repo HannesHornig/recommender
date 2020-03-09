@@ -2,7 +2,7 @@ CREATE TABLE species (
 	id int,
     "name" varchar(255),
     species_id int,
-	"order" int
+    dexorder int
 );
 
 CREATE TABLE species_type (

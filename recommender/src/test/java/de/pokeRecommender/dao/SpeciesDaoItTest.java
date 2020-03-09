@@ -24,10 +24,9 @@ public class SpeciesDaoItTest
 	@Transactional
 	public void loadPokemon()
 	{
+		final Species pokemon = new Species("Bulba", 1, 2, null);
+		speciesdao.save(pokemon);
 		final Species pokemonSpecies = speciesdao.findBySpeciesId(1);
 		assertNotNull(pokemonSpecies);
-		assertFalse(pokemonSpecies.getType().isEmpty());;
-
-
 	}
 }
